@@ -121,7 +121,7 @@ handleBtn.addEventListener('click', () => {
     handleVisual.classList.add('open');
     page.classList.remove('shake', 'lose');
     page.classList.add('enabled', 'unlock');
-    setTimeout(() => window.location.href = '/pageone/index.html', 900);
+    setTimeout(() => window.location.href = '/1-Year-Anniversary/pageone/index.html', 900);
   } else {
     handleVisual.classList.remove('open');
     handleVisual.classList.remove('wrong');
